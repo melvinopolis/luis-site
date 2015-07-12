@@ -5,9 +5,26 @@
     <description>A blog about my favorite web conferences.</description>
     <link>http://webconfs.me/</link>
     <atom:link href="http://webconfs.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 Jul 2015 22:13:35 -0400</pubDate>
-    <lastBuildDate>Fri, 10 Jul 2015 22:13:35 -0400</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2015 18:10:14 -0400</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2015 18:10:14 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Treehouse Meetups</title>
+        <description>&lt;hr /&gt;
+&lt;p&gt;layout: post
+title: “Treehouse Meetups”
+category: meetups
+___&lt;/p&gt;
+
+&lt;p&gt;This is a post about meetups. They are cool.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 12 Jul 2015 18:05:45 -0400</pubDate>
+        <link>http://webconfs.me/treehouse-meetups</link>
+        <guid isPermaLink="true">http://webconfs.me/treehouse-meetups</guid>
+        
+        
+      </item>
     
       <item>
         <title>Converge</title>

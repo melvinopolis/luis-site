@@ -1,3 +1,6 @@
+<!-- Capture and store a URL -->
+{% capture location %}{{ page.url | split:'/' }}{% endcapture %}
+
 <header class="main-header" role="banner">
   <div class="grid">
     <div class="grid__col--12">
@@ -8,8 +11,11 @@
         <ul class="nav">
         {% for page in site.pages %}
 
+          <!-- Compare page title to the URL -->
+          {% assign current = page.title | downcase %}
+
           {% if page.title %}
-          <li class="nav__item">
+          <li {% if location == current %} class="nav__item--current" {% else %} class="nav__item" {% endif %}>
             <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           </li>
           {% endif %}
